@@ -15,7 +15,7 @@ terraform {
 
   required_providers {
     aws = {
-        source = hashicorp/aws
+        source = "hashicorp/aws"
         # ----------------------------
         # Different ways to lock versions THis is aws version 
         # ----------------------------
